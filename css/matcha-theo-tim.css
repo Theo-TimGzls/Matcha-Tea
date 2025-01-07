@@ -93,7 +93,7 @@ h1 a {
     width: 141px;
     height: 100%;
     position: fixed;
-    margin-top: 35px;
+    margin-top: auto;
 }
 
 .nav {
