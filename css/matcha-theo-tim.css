@@ -40,6 +40,10 @@ h1 {
     z-index: 100;
 }
 
+.titre-header {
+    text-decoration: none; 
+}
+
 /* .titre-header {
     display: flex;
     justify-content: center;
@@ -54,11 +58,16 @@ h1 {
     margin-left: 20px;
 }
 
+.logo img {
+    width: 60%;
+    height: 60%;
+}
+
 .icons {
     float: right;
 }
 
-.icons a {
+.icons img {
     color: #172026;
     margin-right: 10px;
 }
