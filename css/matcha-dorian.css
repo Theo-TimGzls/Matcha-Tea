@@ -13,7 +13,7 @@
 
 body{
     background-color: #EEE6D8;
-    font-family: "Poppins", sans-serif;
+
 }
 
 /* *Header */
@@ -39,7 +39,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #EEE6D8;
-    height: auto;
+    height: 641px;
     width: auto;
     margin-left: 200px;
 }
@@ -165,7 +165,7 @@ footer {
     display: flex;
     position: fixed;
     background-color: green;
-    height: 100px;
+    height: 200px;
     width: 100%;
     left: 0;
     bottom: 0;
