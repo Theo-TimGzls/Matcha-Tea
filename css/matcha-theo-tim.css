@@ -2,6 +2,9 @@
 
 } */
  
+@font-face {
+    /* src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+}
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +16,7 @@
     font-size: 19.3px;
     line-height: 1.8;
     font-weight: 400;
+    font-family: "poppins", sans-serif;
 }
 
 body{
@@ -22,11 +26,16 @@ body{
 h1 {
     font-size: 50px;
     text-transform: uppercase;
+    font-family: "winter minie";
 }
 
 h1 a {
     color: #6BD871;
+    font-family: "winter minie";
+
 }
+
+/* ACCUEIL */
 
 /* header */
 
@@ -44,7 +53,11 @@ h1 a {
 }
 
 .titre-header {
-    text-decoration: none; 
+    font-family: "winter minie";
+
+    a {
+        font-family: "winter minie";
+    }
 }
 
 
@@ -88,13 +101,13 @@ h1 a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 32px;
+    font-size: 28px;
     background-color: #6BD871;
     width: 141px;
     height: 100%;
-    margin-top: auto;
     position: fixed;
     z-index: 99;
+    top: 0;
 
     a {
 
@@ -173,3 +186,21 @@ h1 a {
     bottom: 0;
     position: fixed;
 }
+
+/* end footer */
+
+
+
+/* histoire */
+
+.container-histoire {
+    margin: 100px 180px 0;
+    font-size: 16px;
+
+    ul li span {
+        font-weight: 700;
+    }
+}
+
+
+
