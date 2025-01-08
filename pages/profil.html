@@ -13,11 +13,14 @@
     <div class="wrapper">
       <div class="sidebar"></div>
     </div>
-    <div class="container">
+    <section class="container">
       <div class="profil-container">
         <div class="profil">
-          <h2>Profil</h2>
-          <div class="nav-information"></div>
+          <h2>Informations de votre profil</h2>
+          <div class="nav-information">
+            <button><a href="connexion.html">Mon compte</a></button>
+            <button><a href="commandes.html">Mes commandes</a></button>
+          </div>
         </div>
         <div class="profil-texte">
           <p>Dans cette section, visualisez et modifiez vos informations.</p>
@@ -49,84 +52,78 @@
               <!-- téléphone -->
               <span class="input-span">
                 <label for="phone" class="label">Téléphone</label>
-                <input type="phone" name="phone" id="phone" required
+                <input type="text" name="phone" id="phone" required
               /></span>
-              <!-- <span class="span"><a href="#">Mot de passe oublié ?</a></span>
-            <input class="submit" type="submit" value="SE CONNECTER" />
-            <span class="span"
-              >Vous n'avez pas de compte ? <a href="#">S'inscrire</a></span
-            > -->
+              <input
+                class="submit"
+                type="submit"
+                value="VALIDER LES MODIFICATIONS"
+              />
             </form>
             <!-- deuxième form -->
             <form class="form">
               <!-- nom -->
               <span class="input-span">
-                <label for="name" class="label">Nom</label>
-                <input type="text" name="name" id="name" required
+                <label for="address" class="label">Adresse</label>
+                <input type="text" name="address" id="address" required
               /></span>
               <!-- prénom -->
               <span class="input-span">
-                <label for="firstname" class="label">Prénom</label>
-                <input type="text" name="firstname" id="firstname" required
+                <label for="complement" class="label"
+                  >Complément d'adresse</label
+                >
+                <input type="text" name="complement" id="complement"
               /></span>
               <!-- date de naissance -->
               <span class="input-span">
-                <label for="birth" class="label">Date de naissance</label>
-                <input type="date" name="birth" id="birth"
+                <label for="city" class="label">Ville</label>
+                <input type="text" name="city" id="city" required
               /></span>
               <!-- email -->
               <span class="input-span">
-                <label for="email" class="label">Email</label>
-                <input type="email" name="email" id="email" required
+                <label for="zip" class="label">Code portal</label>
+                <input type="text" name="zip" id="zip" required
               /></span>
               <!-- téléphone -->
               <span class="input-span">
-                <label for="phone" class="label">Téléphone</label>
-                <input type="phone" name="phone" id="phone" required
+                <label for="country" class="label">Pays</label>
+                <input type="text" name="country" id="country" required
               /></span>
-              <!-- <span class="span"><a href="#">Mot de passe oublié ?</a></span>
-            <input class="submit" type="submit" value="SE CONNECTER" />
-            <span class="span"
-              >Vous n'avez pas de compte ? <a href="#">S'inscrire</a></span
-            > -->
             </form>
             <!-- troisième form -->
             <form class="form">
               <!-- nom -->
               <span class="input-span">
-                <label for="name" class="label">Nom</label>
-                <input type="text" name="name" id="name" required
+                <label for="code" class="label">Code promo</label>
+                <input type="text" name="code" id="code"
               /></span>
               <!-- prénom -->
               <span class="input-span">
-                <label for="firstname" class="label">Prénom</label>
-                <input type="text" name="firstname" id="firstname" required
+                <label for="code" class="label">Activer ma carte cadeau</label>
+                <input type="text" name="code" id="code"
               /></span>
               <!-- date de naissance -->
               <span class="input-span">
-                <label for="birth" class="label">Date de naissance</label>
-                <input type="date" name="birth" id="birth"
+                <label for="password" class="label">Ancien mot de passe</label>
+                <input type="password" name="password" id="password"
               /></span>
               <!-- email -->
               <span class="input-span">
-                <label for="email" class="label">Email</label>
-                <input type="email" name="email" id="email" required
+                <label for="password" class="label">Nouveau mot de passe</label>
+                <input type="password" name="password" id="password" required
               /></span>
               <!-- téléphone -->
               <span class="input-span">
-                <label for="phone" class="label">Téléphone</label>
-                <input type="phone" name="phone" id="phone" required
+                <label for="password" class="label"
+                  >Confirmation du mot de passe</label
+                >
+                <input type="password" name="password" id="password" required
               /></span>
-              <!-- <span class="span"><a href="#">Mot de passe oublié ?</a></span>
-            <input class="submit" type="submit" value="SE CONNECTER" />
-            <span class="span"
-              >Vous n'avez pas de compte ? <a href="#">S'inscrire</a></span
-            > -->
             </form>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- footer  -->
     <footer class="footer"></footer>
   </body>
