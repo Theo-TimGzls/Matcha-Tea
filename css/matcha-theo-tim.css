@@ -17,7 +17,6 @@
 
 body{
     background-color: #EEE6D8;
-
 }
 
 h1 {
@@ -40,8 +39,6 @@ h1 a {
     height: 70px;
     top: 0;
     left: 0;
-    /* line-height: 70px; */
-    margin-bottom: 20px;
     position: fixed;
     z-index: 100;
 }
@@ -84,27 +81,95 @@ h1 a {
 
 .accueil {
     height: 100vh;
-    width: 100%;
+    width: auto;
 }
 
 .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-size: 32px;
     background-color: #6BD871;
     width: 141px;
     height: 100%;
-    position: fixed;
     margin-top: auto;
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    position: fixed;
+    z-index: 99;
 
     a {
+
         color: #000;
-        margin: 110px 0;
+        /* margin: 90px 0; */
         transform: rotate(-90deg);
     }
+}
+
+/* end nav */
+
+/* main */
+
+.main {
+    /* display: flex;
+    align-items: flex-end; */
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+        margin-left: 141px;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
+
+.slider {
+    /* width: 1588px; */
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.slides {
+    /* width: calc(2130px * 3); */
+    height: auto;
+    
+}
+
+.slide {
+    float: left;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.container-accueil {
+    position: absolute;
+    /* position: fixed; */
+    width: 250px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 170px;
+    margin-left: 175px;
+
+    h3 {
+        color: #000;
+    }
+
+}
+
+/* end main */
+
+/* footer */
+
+.footer {
+    background-color: red;
+    width: 100%;
+    height: 176px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
 }
