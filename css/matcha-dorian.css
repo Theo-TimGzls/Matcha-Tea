@@ -16,7 +16,7 @@ body{
 
 }
 
-/* *Header */
+/* Header */
 header {
     background-color: red;
     width: auto;
@@ -39,7 +39,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #EEE6D8;
-    height: 641px;
+    height: auto;
     width: auto;
     margin-left: 200px;
 }
@@ -165,7 +165,7 @@ footer {
     display: flex;
     position: fixed;
     background-color: green;
-    height: 200px;
+    height: 100px;
     width: 100%;
     left: 0;
     bottom: 0;
