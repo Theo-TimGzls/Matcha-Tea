@@ -32,7 +32,10 @@ h1 {
 h1 a {
     color: #6BD871;
     font-family: "winter minie";
+}
 
+h2 {
+    font-size: 30px;
 }
 
 /* ACCUEIL */
@@ -121,19 +124,16 @@ h1 a {
 
 /* main */
 
-.main {
+.main .img-index {
     /* display: flex;
     align-items: flex-end; */
-
-    img {
         width: 100%;
         height: auto;
-        margin-top: 70px;
-        margin-left: 141px;
+        margin-bottom: 70px;
+        /* margin-left: 141px; */
         position: fixed;
         top: 0;
         right: 0;
-    }
 }
 
 .slider {
@@ -194,10 +194,35 @@ h1 a {
 /* histoire */
 
 .container-histoire {
-    margin: 100px 180px 0;
+    padding-top: 90px;
+    margin-left: 180px;
     font-size: 16px;
 
     ul li span {
         font-weight: 700;
     }
 } 
+
+/* end histoire */
+
+/* à propos */
+
+.container-apropos {
+    padding-top: 120px;
+    margin-left: 180px;
+    font-size: 16px;
+}
+
+
+.profil-apropos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profil-apropos .img-profil-apropos {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
