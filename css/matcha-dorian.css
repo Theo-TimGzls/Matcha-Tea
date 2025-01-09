@@ -14,7 +14,6 @@
 
 body{
     background-color: #EEE6D8;
-
 }
 
 /* Header */
@@ -26,8 +25,29 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 229px;
+}
+
+h2, h3 {
+  font-family: "winter minie", sans-serif;
+}
+
+p {
+  font-family: "poppins", sans-serif;  
+}
+
+/* barnav */
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: blue;
+  z-index: 1;
 }
 
 /* connexion html */
@@ -68,7 +88,6 @@ main {
 }
 
 .carte-texte h3 {
-    font-family: "Winter minie";
     font-size: 25px;
     display: flex;
     margin: 0 10px;
@@ -159,15 +178,12 @@ main {
 }
 
 /* profil */
-
 .profil {
-  font-family: "winter minie", sans-serif;
   display: flex;
   justify-content: space-between;
 }
 
 .profil-container {
-  padding-left: 100px;
   padding-top: 64px;
   padding-right: 64px;
 }
@@ -219,18 +235,83 @@ main {
   }
 }
 
-/* barnav */
-.wrapper {
-    display: flex;
-    position: relative;
+/* commandes */
+.commandes {
+  display: flex;
+  justify-content: space-between;
 }
 
-.wrapper .sidebar {
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    background: blue;
-    z-index: 1;
+.commandes-container {
+  padding-top: 64px;
+  padding-right: 64px;
+}
+
+.nav-information {
+  display: flex;
+  align-items: center;
+
+  button {
+    margin-left: 20px;
+    background-color: #aca292;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "winter minie", sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding:0 5px;
+    font-weight: 600;
+  }
+
+  a {
+    color: #000;
+  }
+}
+
+.commandes-content {
+  width: 800px;
+  height: 141px;
+  margin-top: 36px;
+  background-color: #C9BEAB;
+  border-radius: 15px;
+}
+
+.commandes-content {
+  display: flex;
+  align-items: center;
+}
+
+.rond-commandes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+  width: 84px;
+  background-color: #EEE6D8;
+  border-radius: 100%;
+  margin-left: 16px;
+}
+
+.commandes-text-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commandes-text-top-right {
+  text-align: end;
+}
+
+.commandes-text-top-right span {
+  color: red;
+}
+
+.commandes-text-top-right .expedition {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.commandes-text-top-left .date {
+  font-weight: 300;
+  font-size: 14px;
 }
 
 /* footer */
