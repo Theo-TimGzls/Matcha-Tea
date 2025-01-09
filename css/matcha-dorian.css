@@ -24,6 +24,12 @@ header {
     height: 70px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* connexion html */
 /* bouton retour */
 .retour {
@@ -187,10 +193,6 @@ header {
   }
 }
 
-.information .submit {
-  
-}
-
 .information-content {
   display: flex;
   width: 100%;
@@ -211,6 +213,10 @@ header {
 .input-span {
   display: flex;
   flex-direction: column;
+
+  span {
+    color: red;
+  }
 }
 
 /* barnav */
