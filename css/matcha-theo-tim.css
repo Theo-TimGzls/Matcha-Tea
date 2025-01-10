@@ -329,3 +329,8 @@ a{
     height: 300px;
     margin-top: 50px;
 }
+
+.img-profil-apropos {
+    border-radius: 20%;
+    border: #6BD871 5px solid;
+}
