@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/matcha-dorian.css" />
+    <title>Profil</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header"></header>
+    <!-- barnav -->
+    <div class="wrapper">
+      <div class="sidebar"></div>
+    </div>
+    <main>
+      <section class="container">
+        <div class="profil-container">
+          <div class="profil">
+            <h2>Informations de votre profil</h2>
+            <div class="nav-information">
+              <button><a href="connexion.html">Mon compte</a></button>
+              <button><a href="commandes.html">Mes commandes</a></button>
+            </div>
+          </div>
+          <div class="profil-texte">
+            <p>Dans cette section, visualisez et modifiez vos informations.</p>
+          </div>
+          <div class="information">
+            <div class="information-content">
+              <!-- premier form -->
+              <form class="form">
+                <!-- nom -->
+                <span class="input-span">
+                  <label for="name" class="label">Nom<span> *</span></label>
+                  <input type="text" name="name" id="name" required
+                /></span>
+                <!-- prénom -->
+                <span class="input-span">
+                  <label for="firstname" class="label"
+                    >Prénom<span> *</span></label
+                  >
+                  <input type="text" name="firstname" id="firstname" required
+                /></span>
+                <!-- date de naissance -->
+                <span class="input-span">
+                  <label for="birth" class="label">Date de naissance</label>
+                  <input type="date" name="birth" id="birth"
+                /></span>
+                <!-- email -->
+                <span class="input-span">
+                  <label for="email" class="label">Email<span> *</span></label>
+                  <input type="email" name="email" id="email" required
+                /></span>
+                <!-- téléphone -->
+                <span class="input-span">
+                  <label for="phone" class="label"
+                    >Téléphone<span> *</span></label
+                  >
+                  <input type="text" name="phone" id="phone" required
+                /></span>
+                <input
+                  class="submit"
+                  type="submit"
+                  value="VALIDER LES MODIFICATIONS"
+                />
+              </form>
+              <!-- deuxième form -->
+              <form class="form">
+                <!-- nom -->
+                <span class="input-span">
+                  <label for="address" class="label"
+                    >Adresse<span> *</span></label
+                  >
+                  <input type="text" name="address" id="address" required
+                /></span>
+                <!-- prénom -->
+                <span class="input-span">
+                  <label for="complement" class="label"
+                    >Complément d'adresse</label
+                  >
+                  <input type="text" name="complement" id="complement"
+                /></span>
+                <!-- date de naissance -->
+                <span class="input-span">
+                  <label for="city" class="label">Ville<span> *</span></label>
+                  <input type="text" name="city" id="city" required
+                /></span>
+                <!-- email -->
+                <span class="input-span">
+                  <label for="zip" class="label"
+                    >Code portal<span> *</span></label
+                  >
+                  <input type="text" name="zip" id="zip" required
+                /></span>
+                <!-- téléphone -->
+                <span class="input-span">
+                  <label for="country" class="label">Pays<span> *</span></label>
+                  <input type="text" name="country" id="country" required
+                /></span>
+              </form>
+              <!-- troisième form -->
+              <form class="form">
+                <!-- nom -->
+                <span class="input-span">
+                  <label for="code" class="label">Code promo</label>
+                  <input type="text" name="code" id="code"
+                /></span>
+                <!-- prénom -->
+                <span class="input-span">
+                  <label for="code" class="label"
+                    >Activer ma carte cadeau</label
+                  >
+                  <input type="text" name="code" id="code"
+                /></span>
+                <!-- date de naissance -->
+                <span class="input-span">
+                  <label for="password" class="label"
+                    >Ancien mot de passe</label
+                  >
+                  <input type="password" name="password" id="password"
+                /></span>
+                <!-- email -->
+                <span class="input-span">
+                  <label for="password" class="label"
+                    >Nouveau mot de passe</label
+                  >
+                  <input type="password" name="password" id="password"
+                /></span>
+                <!-- téléphone -->
+                <span class="input-span">
+                  <label for="password" class="label"
+                    >Confirmation du mot de passe</label
+                  >
+                  <input type="password" name="password" id="password"
+                /></span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer  -->
+    <footer class="footer"></footer>
+  </body>
+</html>

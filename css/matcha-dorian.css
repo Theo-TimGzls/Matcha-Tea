@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.html, body {
+    font-size: 19.3px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: "winter winie", sans-serif;
+}
+
+body{
+    background-color: #EEE6D8;
+}
+
+/* Header */
+header {
+    background-color: red;
+    width: auto;
+    height: 70px;
+}
+
+main {
+  display: flex;
+  margin-left: 229px;
+}
+
+h2, h3 {
+  font-family: "winter minie", sans-serif;
+}
+
+p {
+  font-family: "poppins", sans-serif;  
+}
+
+/* barnav */
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: blue;
+  z-index: 1;
+}
+
+/* connexion html */
+/* bouton retour */
+.retour {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 90px;
+    left: 220px;
+    border-radius: 5px;
+}
+
+/* container */
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE6D8;
+    height: auto;
+    width: auto;
+    margin-left: 200px;
+}
+
+/* formulaire log in */
+.carte-connexion {
+    height: 461px;
+    width: 420px;
+    background-color: #FFF3DE;
+    border-radius: 15px;
+}
+
+.carte-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carte-texte h3 {
+    font-size: 25px;
+    display: flex;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .form .input-span {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form input[type="email"],
+  .form input[type="password"],
+  .form input[type="text"],
+  .form input[type="date"] {
+    border-radius: 0.5rem;
+    padding: 0.4rem 0rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #C9BEAB;
+    outline: 2px solid #aca292;
+  }
+  
+  .form input[type="email"]:focus,
+  .form input[type="password"]:focus,
+  .form input[type="text"]:focus,
+  .form input[type="date"]:focus {
+    outline: 2px solid #6BD871;
+  }
+  
+  .label {
+    align-self: flex-start;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .form .submit {
+    padding: 1rem 0.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 15px;
+    background-color: #6BD871;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .form .submit:hover {
+    background-color: #5db162;
+    color: #fff;
+  }
+  
+  .span {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .span a {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+
+.carte-texte {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+/* profil */
+.profil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profil-container {
+  padding-top: 64px;
+  padding-right: 64px;
+}
+
+.nav-information {
+  display: flex;
+  align-items: center;
+
+  button {
+    margin-left: 20px;
+    background-color: #aca292;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "winter minie", sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding:0 5px;
+    font-weight: 600;
+  }
+
+  a {
+    color: #000;
+  }
+}
+
+.information-content {
+  display: flex;
+  width: 100%;
+
+  .label {
+    font-size: 16px;
+    line-height: 12px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 88px;
+}
+
+.input-span {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    color: red;
+  }
+}
+
+/* commandes */
+.commandes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commandes-container {
+  padding-top: 64px;
+  padding-right: 64px;
+}
+
+.nav-information {
+  display: flex;
+  align-items: center;
+
+  button {
+    margin-left: 20px;
+    background-color: #aca292;
+    border: transparent;
+    border-radius: 5px;
+    font-family: "winter minie", sans-serif;
+    font-size: 18px;
+    height: 30px;
+    padding:0 5px;
+    font-weight: 600;
+  }
+
+  a {
+    color: #000;
+  }
+}
+
+.commandes-content {
+  width: 800px;
+  height: 141px;
+  margin-top: 36px;
+  background-color: #C9BEAB;
+  border-radius: 15px;
+}
+
+.commandes-content {
+  display: flex;
+  align-items: center;
+}
+
+.rond-commandes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+  width: 84px;
+  background-color: #EEE6D8;
+  border-radius: 100%;
+  margin-left: 16px;
+}
+
+.commandes-text-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commandes-text-top-right {
+  text-align: end;
+}
+
+.commandes-text-top-right span {
+  color: red;
+}
+
+.commandes-text-top-right .expedition {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.commandes-text-top-left .date {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    position: fixed;
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
