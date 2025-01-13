@@ -16,40 +16,6 @@ body{
     background-color: #EEE6D8;
 }
 
-/* Header */
-header {
-    background-color: red;
-    width: auto;
-    height: 70px;
-}
-
-main {
-  display: flex;
-  margin-left: 229px;
-}
-
-h2, h3 {
-  font-family: "winter minie", sans-serif;
-}
-
-p {
-  font-family: "poppins", sans-serif;  
-}
-
-/* barnav */
-.wrapper {
-  display: flex;
-  position: relative;
-}
-
-.wrapper .sidebar {
-  position: fixed;
-  width: 200px;
-  height: 100%;
-  background: blue;
-  z-index: 1;
-}
-
 /* connexion html */
 /* bouton retour */
 .retour {
@@ -62,15 +28,14 @@ p {
 }
 
 /* container */
-.container {
-    /* display: flex; */
+/* .container {
     justify-content: center;
     align-items: center;
     background-color: #EEE6D8;
     height: auto;
     width: auto;
     margin-left: 200px;
-}
+} */
 
 /* formulaire log in */
 .carte-connexion {
@@ -312,15 +277,4 @@ p {
 .commandes-text-top-left .date {
   font-weight: 300;
   font-size: 14px;
-}
-
-/* footer */
-footer {
-    display: flex;
-    position: fixed;
-    background-color: green;
-    height: 100px;
-    width: 100%;
-    left: 0;
-    bottom: 0;
 }
