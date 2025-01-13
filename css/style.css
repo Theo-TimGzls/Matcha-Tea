@@ -5,6 +5,11 @@
  body{
     margin: 0;
     padding: 0;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
  
 /* header */
@@ -47,6 +52,7 @@ header{
     }
     .a-logo{
         color: #6bd871; 
+        text-decoration: none;
     }
 
     .logo-user{
@@ -158,10 +164,6 @@ footer {
                 font-family: 'poppins';
             }
 
-            a{
-                text-decoration: none;
-                color: black;
-            }
         }  
         .container{
         position: absolute;
