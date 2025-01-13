@@ -12,9 +12,9 @@
     font-family: "winter winie", sans-serif;
 }
 
-body{
+/* body{
     background-color: #EEE6D8;
-}
+} */
 
 /* connexion html */
 /* bouton retour */
@@ -28,14 +28,15 @@ body{
 }
 
 /* container */
-/* .container {
+.container-dodo {
     justify-content: center;
     align-items: center;
     background-color: #EEE6D8;
     height: auto;
     width: auto;
     margin-left: 200px;
-} */
+    margin-bottom: 20px;
+}
 
 /* formulaire log in */
 .carte-connexion {
@@ -43,6 +44,9 @@ body{
     width: 420px;
     background-color: #FFF3DE;
     border-radius: 15px;
+    margin-top: 120px;
+    margin-left: 550px;
+    padding-left: 40px;
 }
 
 .carte-content {
@@ -149,8 +153,8 @@ body{
 }
 
 .profil-container {
-  padding-top: 64px;
-  padding-right: 64px;
+  padding-top: 70px;
+  padding-left: 150px;
 }
 
 .nav-information {
